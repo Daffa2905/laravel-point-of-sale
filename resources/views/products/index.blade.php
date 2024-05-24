@@ -27,7 +27,7 @@
                         the product experience, ensuring product retention. </p>
                 </div>
                 <div>
-                <a href="{{ route('products.importView') }}" class="btn btn-success add-list">Import</a>
+                {{-- <a href="{{ route('products.importView') }}" class="btn btn-success add-list">Import</a> --}}
                 <a href="{{ route('products.exportData') }}" class="btn btn-warning add-list">Export</a>
                 <a href="{{ route('products.create') }}" class="btn btn-primary add-list">Add Product</a>
                 </div>

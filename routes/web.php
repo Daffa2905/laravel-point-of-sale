@@ -29,7 +29,7 @@ use App\Http\Controllers\Dashboard\UserController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 

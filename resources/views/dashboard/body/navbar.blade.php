@@ -5,14 +5,14 @@
                 <i class="ri-menu-line wrapper-menu"></i>
                 <a href="{{ route('dashboard') }}" class="header-logo">
                     <img src="../assets/images/logo.png" class="img-fluid rounded-normal" alt="logo">
-                    <h5 class="logo-title ml-3">POSDash</h5>
+                    <h5 class="logo-title ml-3">POSNES</h5>
                 </a>
             </div>
             <div class="iq-search-bar device-search">
-                <form action="#" class="searchbox">
+                {{-- <form action="#" class="searchbox">
                     <a class="search-link" href="#"><i class="ri-search-line"></i></a>
                     <input type="text" class="text search-input" placeholder="Search here...">
-                </form>
+                </form> --}}
             </div>
             <div class="d-flex align-items-center">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
